@@ -1,0 +1,103 @@
+.Badges {
+  max-width: 1200px;
+  margin: 10px auto;
+  padding: 20px;
+  border-bottom: 1px solid #E5E7EB;
+}
+
+#badges-head {
+  font-weight: 400;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 44.1px;
+  letter-spacing: 7%;
+  color: #000000;
+  margin-bottom: 30px;
+}
+
+#square-intro,
+#pill-intro {
+  font-family: 'Permanent Marker', cursive;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 16px;
+  letter-spacing: 0%;
+  text-align: right;
+  color: #5E5D5D;
+  width: 80px;
+  margin-right: 20px;
+  flex-shrink: 10;
+}
+
+.badge-square-container,
+.badge-pill-container {
+  display: flex;
+  margin-bottom: 20px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+}
+
+.badge {
+  padding: 2px 12px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: Inter;
+  display: inline-block;
+}
+
+.badge-label {
+  display: block;
+  font-family: 'Inter', sans-serif;
+  font-size: 9px;
+  color: #6B7280;
+  margin-bottom: 8px;
+}
+
+.badge-square {
+  border-radius: 4px;
+}
+
+.badge-pill {
+  border-radius: 12px;
+}
+
+.badge-gray {
+  background-color: #8080803d;
+  color: #1F2937;
+}
+
+.badge-red {
+  background-color: #FEE2E2;
+  color: #991B1B;
+}
+
+.badge-yellow {
+  background-color: #FEF3C7;
+  color: #92400E;
+}
+
+.badge-green {
+  background-color: #D1FAE5;
+  color: #065F46;
+}
+
+.badge-blue {
+  background-color: #DBEAFE;
+  color: #1E40AF;
+}
+
+.badge-indigo {
+  background-color: #E0E7FF;
+  color: #3730A3;
+}
+
+.badge-purple {
+  background-color: #EDE9FE;
+  color: #5B21B6;
+}
+
+.badge-pink {
+  background-color: #FCE7F3;
+  color: #9D174D;
+}

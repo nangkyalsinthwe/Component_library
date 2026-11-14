@@ -1,0 +1,143 @@
+.Testimonials {
+  margin: 10px auto;
+}
+
+#testimonial-head,
+.label-font {
+  font-family: 'Permanent Marker', cursive;
+  font-weight: 400;
+  font-size: 44.1px;
+  line-height: 63px;
+  color: #5E5D5D;
+}
+
+.test-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.testimonial {
+  display: flex;
+  border-radius: 8px;
+  position: relative;
+  width: 376px;
+  height: 454px;
+  margin-top: 100px;
+}
+
+.tp-text {
+  font-family: Inter;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 500;
+}
+
+.name {
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.tp-role {
+  font-family: Inter;
+  font-size: 16px;
+}
+
+.tp-author {
+  display: flex;
+  flex-direction: column;
+}
+
+.tp-with-pic {
+  background-color: #2545B8;
+  color: white;
+  margin-top: 200px;
+}
+
+.tp-no-pic {
+  background-color: #ffffff;
+  color: #111827;
+  align-items: center;
+  justify-content: center;
+}
+
+.userPhoto {
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0px 20px 25px -5px #0000001A;
+  position: absolute;
+}
+
+.tp-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: absolute;
+}
+
+@media (min-width: 1024px) {
+  .testimonial {
+    width: 1358px;
+    height: 400px;
+    margin-top: 50px;
+  }
+
+  .tp-with-pic .userPhoto {
+    width: 384px;
+    height: 464px;
+    top: -32px;
+    left: 80px;
+  }
+
+  .tp-with-pic .testimonial-info {
+    left: 40%;
+    top: 100px;
+    position: absolute;
+  }
+
+  .tp-no-pic .tp-logo {
+    top: 60px;
+    left: 45%;
+  }
+
+  .tp-no-pic .testimonial-info {
+    width: 60%;
+    text-align: center;
+    position: static;
+    /* Center within flexbox */
+  }
+
+  .tp-no-pic .tp-author {
+    flex-direction: row;
+    gap: 8px;
+    justify-content: center;
+  }
+
+  .tp-divider {
+    display: inline;
+    color: #D1D5DB;
+  }
+}
+
+@media (max-width: 1023px) {
+  .userPhoto {
+    width: 344px;
+    height: 206px;
+    left: 16px;
+    top: -110px;
+  }
+
+  .testimonial-info {
+    padding: 20px;
+    top: 25%;
+  }
+
+  .tp-no-pic .tp-logo {
+    top: 20px;
+    left: 100px;
+  }
+
+  .tp-divider {
+    display: none;
+  }
+}

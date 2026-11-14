@@ -1,0 +1,99 @@
+.Banners {
+  margin: 10px auto;
+}
+
+#banner-head {
+  font-weight: 400;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 96px;
+  letter-spacing: 7%;
+  color: #000000;
+  margin-bottom: 30px;
+  line-height: 96px;
+}
+
+.banner-container {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  padding-top: 0px;
+}
+
+.multi-container,
+.single-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.single-container {
+  max-width: 600px;
+}
+
+#multi-head,
+#single-head {
+  font-family: 'Permanent Marker', cursive;
+  font-weight: 400;
+  letter-spacing: 0%;
+  text-align: start;
+  color: #5E5D5D;
+  width: 259px;
+  flex-shrink: 10;
+  font-size: 44.1px;
+  line-height: 63px;
+}
+
+.banner {
+  padding: 16px;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 20px;
+  font-family: "Inter";
+}
+
+.banner-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.banner-icon {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
+
+.banner-title {
+  margin: 0;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.banner-content {
+  margin-left: 32px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.banner-success {
+  background-color: #ECFDF5;
+  color: #065F46;
+}
+
+.banner-warning {
+  background-color: #FFFBEB;
+  color: #92400E;
+}
+
+.banner-error {
+  background-color: #FEF2F2;
+  color: #92400E;
+}
+
+.banner-neutral {
+  background-color: #F0F9FF;
+  color: #1E40AF;
+}

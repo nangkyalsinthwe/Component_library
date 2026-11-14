@@ -1,0 +1,96 @@
+.Cards {
+  margin: 10px auto;
+
+}
+
+#cards-head {
+  font-family: Permanent Marker;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 63px;
+  letter-spacing: 7%;
+}
+
+.cards-container {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  padding-top: 0px;
+}
+
+.card-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-label {
+  font-family: 'Permanent Marker', cursive;
+  font-weight: 400;
+  letter-spacing: 0%;
+  text-align: start;
+  color: #5E5D5D;
+  flex-shrink: 10;
+  font-size: 44.1px;
+  line-height: 63px;
+  margin-bottom: 90px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 384px;
+  height: 208px;
+  padding: 0 24px 32px 24px;
+  gap: 32px;
+  opacity: 1;
+  border-radius: 8px;
+  position: relative;
+  background: #F9FAFB;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.icon {
+  background-color: #3F75FE;
+  color: white;
+  position: absolute;
+  top: -24px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 12px;
+  border-radius: 6px;
+}
+
+.card-title {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.card-body {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: -20px;
+}
+
+.card:hover,
+.card-hover-manual {
+  cursor: pointer;
+  background-color: white;
+  transform: translateY(-5px);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
